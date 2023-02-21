@@ -1,0 +1,130 @@
+.hidden {
+	opacity: 0;
+}
+
+* {
+	font-family: 'Shantell Sans', cursive;
+}
+
+body {
+	background: url('https://img.freepik.com/free-vector/sunset-sunrise-beach-tropical-landscape_107791-1775.jpg?w=996&t=st=1676994247~exp=1676994847~hmac=9c70be6a4bf0d5c357bdf82c9f5dcb4663d59a57df8a69ac4f90dc570f2d6fde');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box {
+	width: 400px;
+	height: auto;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	border: 1px solid white;
+	border-radius: 15px;
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+
+.login-box a {
+	color: white;
+	transition: .3s;
+}
+
+.login-box a:hover {
+	color: blue;
+}
+
+.login-box > h2 {
+	margin-bottom: 15px;
+}
+
+.div-inputs {
+	width: 100%;
+}
+
+.div-inputs > div {
+	border-bottom: 2px solid white;
+	margin-bottom: 30px;
+}
+
+.div-inputs > div > label {
+	position: absolute;
+	left: 0;
+	margin: -15px 0 0 30px;
+	transition: .3s;
+}
+
+.div-inputs > div > input {
+	width: 100%;
+	height: 35px;
+	padding-left: 5px;
+	background: none;
+	border: none;
+}
+
+.div-inputs > div > input:placeholder-shown ~ label {
+	margin-top: 0;
+}
+
+.div-inputs > div > input:focus ~ label {
+	margin-top: -15px;
+}
+
+.div-inputs > div > span {
+	position: absolute;
+	margin: 6px 0 0 -30px;
+}
+
+.div-remember-forget {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.div-remember-forget > label {
+	margin-right: 5px;
+}
+
+.div-remember-forget > label > input {
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.div-button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.div-button > button {
+	width: 80%;
+	height: 35px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 25px;
+	background-color: white;
+	color: black;
+	transition: background .3s;
+	cursor: pointer;
+}
+
+.div-button > button:hover {
+	border: 2px solid white;
+	background: none;
+	color: white;
+}
+
+.div-account > span {
+}
